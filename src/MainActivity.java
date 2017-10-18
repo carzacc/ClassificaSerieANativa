@@ -473,7 +473,7 @@ public class MainActivity extends AppCompatActivity
 
         // Crea un ArrayList sulla base di listasquadre ed un ArrayAdapter che permette di usare
         // questo ArrayList come lista
-        List<String> arraylistsquadre = new ArrayList<String>(Arrays.asList(listasquadre));
+        List <String> arraylistsquadre = new ArrayList<String>(Arrays.asList(listasquadre));
 
         ArrayAdapter<String> arrayAdapter = new ArrayAdapter<String>(
                 this,
